@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodDX</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <!-- d-flex align-items-center -->
+        <a class="navbar-brand" href="#">Food<span>DX</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-3 align-item-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Explore Foods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item ms-lg-4 btn btn-warning">
+                <a class="nav-link" href="#">1800 789 123</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner py-5">
+      <div class="container">
+        <div class="row g-4 align-items-center gap-5">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <h1>Order food from favourite restaurants near you.</h1>
+            <p class="py-lg-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+              purus a odio finibus bibendum amet leo.
+            </p>
+            <a href="" class="btn btn-1 btn-warning"
+              >Order Now
+              <i class="fa fa-cart-arrow-down mx-1" aria-hidden="true"></i
+            ></a>
+            <a href="" class="btn btn-2 ms-3"
+              >Learn More
+              <i class="fa fa-angle-right mx-1" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="col-lg-6 banner-image order-1 order-lg-2">
+            <img class="w-100" src="images/banner.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="counter p-4 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3 id="number1">1287+</h3>
+            <p>Savings</p>
+          </div>
+          <div class="col-lg-3">
+            <h3 id="number2">1287+</h3>
+            <p>Savings</p>
+          </div>
+          <div class="col-lg-3">
+            <h3 id="number3">1287+</h3>
+            <p>Savings</p>
+          </div>
+          <div class="col-lg-3">
+            <h3 id="number4">1287+</h3>
+            <p>Savings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner-2 py-5 m-4">
+      <div class="container">
+        <div class="row align-items-center gap-5">
+          <div class="col-lg-6">
+            <img class="w-100" src="images/banner-2.jpg" alt="" />
+          </div>
+          <div class="col-lg-5">
+            <h2>
+              We pride ourselves on making real food from the best ingredients.
+            </h2>
+            <p class="my-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+              purus a odio finibus bibendum amet leo.
+            </p>
+            <a href="" class="btn btn-warning"
+              >Learn More
+              <i class="fa fa-angle-right mx-1" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-3 py-5 m-4">
+      <div class="container">
+        <div class="row align-items-center gap-5">
+          <div class="col-lg-5 order-2 order-lg-1">
+            <h2>
+              We make everything by hand with the best possible ingredients.
+            </h2>
+            <p class="my-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+              purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat
+              tellus.Far far away, behind the word mountains, far from the
+              countries Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <a href="" class="btn btn-warning"
+              >Learn More
+              <i class="fa fa-angle-right mx-1" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="col-lg-6 position-relative order-1 order-lg-2">
+            <img class="w-100" src="images/banner-3.jpg" alt="" />
+            <img class="top-png" src="images/toppng 2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quote">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-8 text-center m-auto">
+            <h3>
+              When a man's stomach is full it makes no difference whether he is
+              rich or poor.
+            </h3>
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+              purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat
+              tellus.
+            </p>
+          </div>
+
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn text-white"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Our
+            Story
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="275px"
+                    src="https://www.youtube.com/embed/3Ho9ivMWhho"
+                    title="Basic Muffin Recipe | How To Make Muffins Easy Recipe"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rainbow py-5">
+      <div class="container">
+        <div class="row gap-5">
+          <div class="col-lg-4 rainbow-box">
+            <img class="w-100" src="images/rainbow-2.jpg" alt="" />
+            <h4>Rainbow Vegetable Sandwich</h4>
+            <p>Time: 15 - 20 Minutes | Serves: 1</p>
+            <p>$10.50 <span>$11.70</span></p>
+            <a href="" class="btn btn-1 btn-warning"
+            >Order Now
+            <i class="fa fa-cart-arrow-down mx-1" aria-hidden="true"></i
+          ></a>
+          </div>
+          <div class="col-lg-4 rainbow-box">
+            <img class="w-100" src="images/rainbow-3.jpg" alt="" />
+            <h4>Rainbow Vegetable Sandwich</h4>
+            <p>Time: 15 - 20 Minutes | Serves: 1</p>
+            <p>$10.50 <span>$11.70</span></p>
+            <a href="" class="btn btn-1 btn-warning"
+            >Order Now
+            <i class="fa fa-cart-arrow-down mx-1" aria-hidden="true"></i
+          ></a>
+          </div>
+          <div class="col-lg-4 rainbow-box">
+            <img class="w-100" src="images/rainbow-1.jpg" alt="" />
+            <h4>Rainbow Vegetable Sandwich</h4>
+            <p>Time: 15 - 20 Minutes | Serves: 1</p>
+            <p>$10.50 <span>$11.70</span></p>
+            <a href="" class="btn btn-1 btn-warning"
+            >Order Now
+            <i class="fa fa-cart-arrow-down mx-1" aria-hidden="true"></i
+          ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

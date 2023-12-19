@@ -1,0 +1,134 @@
+$brand: #F46A06;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+.navbar-brand{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    span{
+        color: $brand;
+    }
+}
+.btn-warning{
+    background: $brand;
+    border-radius: 0;
+    padding: 6px 20px;
+    a{
+        color: #fff !important;
+    }
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #F46A06;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn-2{
+    box-shadow: 0px 0px 5px 1px rgba(85, 85, 85, 0.05);
+    border-radius: 0;
+    font-weight: 700;
+}
+.banner{
+    &-image{
+        width: 502px;
+        height: 502px;
+    }
+    h1{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        color: #555;
+    }
+    .btn-1{
+        color: #fff;
+        font-weight: 700;
+    }
+}
+.counter{
+        background: $brand;
+        color: #fff;
+}
+.banner-2, .banner-3{
+    h2{
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    p{
+        color: #555;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    a{
+        color: #fff;
+    }
+}
+.banner-3{
+    .top-png{
+        position: absolute;
+        right: -105px;
+        top: -52%;
+    }
+}
+.quote{
+    background: url(../images/dough-nut.jpg);
+    h3{
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+        color: $brand;
+    }
+    p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        color: #fff;
+        margin-bottom: 14px;
+    }
+    i{
+        font-size: 20px;
+    }
+}
+.rainbow{
+    h4{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        color: #000;
+p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #555;
+}
+    }
+    &-box{
+        width: 345px;
+        border-bottom: 1px solid gray;
+    }
+}
